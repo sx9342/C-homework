@@ -9,6 +9,6 @@ int main()
     int apple_weight;
     printf("请输入苹果重量(斤)：");
     scanf("%d", &apple_weight);
-    printf("苹果的单价为%d/斤,总价为%d\n元", apple_price, apple_weight*apple_price);
+    printf("苹果的单价为%d/斤,总价为%d元\n", apple_price, apple_weight * apple_price);
     return 0;
 }
