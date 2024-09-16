@@ -6,8 +6,9 @@
 int main()
 {
     int apple_price = 5;
-    int apple_num = 0;
-    scanf("请输入购买苹果的重量", &apple_num);
-    printf("苹果的单价为%d,总价为%d\n", apple_price, apple_num * apple_price);
+    int apple_weight;
+    printf("请输入苹果重量(斤)：");
+    scanf("%d", &apple_weight);
+    printf("苹果的单价为%d/斤,总价为%d\n元", apple_price, apple_weight*apple_price);
     return 0;
 }
